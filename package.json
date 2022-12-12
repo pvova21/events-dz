@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "prebuild": "babel src -d lib",
     "build": "webpack --mode production",
     "lint": "eslint .",
     "coverage": "jest --coverage",
