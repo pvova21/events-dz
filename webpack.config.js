@@ -11,7 +11,7 @@ module.exports = {
     rules: [
       {
         test: /\.(sa|sc|c)ss$/,
-        use: [MiniCssExtractPlugin.loader, 'css-loader'/*, 'style-loader'*/]
+        use: [MiniCssExtractPlugin.loader, 'css-loader']
       },
       {
         test: /\.(png|svg|jpg|gif)$/,
